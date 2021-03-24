@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+html {
+	background-color: #f0f3bd;
+}
+
+.calculadora {
+	width: 20vw;
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	position: absolute;
+	top: 20px;
+	left: 20px;
+    border-radius: 10px;
+    background-color: #30c3fd;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.area-visor {
+	width: 92%;
+	height: 10%;
+	display: flex;
+	justify-content: center;
+}
+
+input {
+	height: 100%;
+	width: 95%;
+	border: solid;
+	border-color: #4fbfa5;
+	background-color: #d8fff7;
+	text-align: center;
+}
+
+.teclas {
+	height: 80%;
+	width: 85%;
+	display: grid;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	row-gap: 4px;
+	column-gap: 4px;
+}
+
+.dig {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid;
+	border-color: #4fbfa5;
+	background-color: #d8fff7;
+}
+
+.opr {
+    background-color: #83ffb9c2;
+}
+
+.dRes,
+.dC {
+    background-color: #028090b8;
+}
