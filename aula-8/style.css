@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+body {
+	font-family: 'Roboto Mono', monospace;
+	min-height: 854px;
+	background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png');
+	background-color: #000000;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding-bottom: 20vh;
+}
+
+.container {
+	text-align: center;
+	padding: 20px;
+}
+
+.page-title {
+	color: #ffffff;
+	margin: 5px 0;
+}
+
+button,
+.button-jogar {
+	padding: 0.8rem 1.5rem;
+	margin: 1rem 0;
+	border-radius: 5px;
+	border: none;
+	font-size: 1rem;
+}
+
+/* form */
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+h2 {
+	color: white;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.carta-jogador,
+.carta-maquina,
+.card-back {
+	width: 360px;
+	height: 500px;
+	/* overflow: auto; */
+	border-radius: 10px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/* background-size: 350px 300px;
+	background-position-x: 5px;
+	background-position-y: 10px; */
+	border-radius: 15px;
+
+	/* background-color: blue; */
+	padding: 5% 0;
+	background-image: url('./img/WTL\ 2021\ -\ Logo.png');
+}
+
+/* Edite as cartas aqui */
+.carta-jogador,
+.carta-maquina {
+	width: 360px;
+	height: 500px;
+
+	border-radius: 10px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+
+	display: none;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 15px;
+
+	padding: 5% 0;
+	background: #205294;
+}
+
+.area-nome {
+	border: #e0f6fd solid;
+	background-color: #e0f6fd34;
+
+	width: 90%;
+	height: 10%;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.area-nome h2 {
+	color: #dcaa50;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 35px;
+}
+
+.area-imagem {
+	width: 90%;
+	height: 40%;
+	margin: 2% 0;
+
+	border: #e0f6fd solid;
+	border-radius: 5px;
+}
+
+.area-imagem img {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	object-fit: none;
+	object-position: 50% 35%;
+
+	/* caso pegue as imagens cortadas:
+    object-fit: cover;
+	object-position: top;
+    */
+}
+
+.area-info {
+	width: 90%;
+	height: 50%;
+	border-radius: 5px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.area-detalhes {
+	border: #e0f6fd solid;
+	background-color: #e0f6fd34;
+	border-radius: 5px;
+
+	width: 100%;
+	height: 15%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 1%;
+}
+
+.area-detalhes h4 {
+	font-family: 'Bebas Neue', cursive;
+	color: #dcaa50;
+	font-size: 20px;
+}
+
+.div-detalhes {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+
+	width: 40%;
+}
+
+.area-atributos {
+	border: #e0f6fd solid;
+	background-color: #e0f6fd34;
+	border-radius: 5px;
+
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-family: 'Montserrat', sans-serif;
+	height: 76%;
+}
+
+.area-atributos p {
+	margin: 0;
+}
+
+/* Fim das edições */
+
+/* Do JS: */
+.carta-imagem {
+	border: 1px solid black;
+	height: 100px;
+	margin: 10px;
+}
+
+.carta-imagem img {
+	width: 100%;
+	height: 100%;
+}
+
+.carta-status {
+	height: 160px;
+	margin: 2rem;
+	color: white;
+	z-index: 2;
+}
+
+.carta-status input {
+	margin: 20px 10px;
+	display: inline;
+}
+
+.resultado-final {
+	color: white;
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: bolder;
+	padding: 1rem;
+	border: 2px solid black;
+	background-color: black;
+}
+
+.info-liga {
+	height: 5vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: blue;
+	border-radius: 5px;
+	opacity: 80%;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding: 1rem;
+	border: 2px solid black;
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.--spacing {
+	margin-left: 2.5rem;
+}
+
+.carta-subtitle {
+	z-index: 2;
+	position: absolute;
+	top: 16px;
+	left: 37px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+#cartas {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.carta-status p {
+	margin-bottom: 2rem;
+}
