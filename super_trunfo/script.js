@@ -24,6 +24,23 @@ let cartas = [
 		},
 	},
 	{
+		nome: 'SoS',
+		time: 'Team NV',
+		raca: 'Protoss',
+		pais: 'https://duckduckgo.com/i/35f25a64.png',
+		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
+		imagem:
+			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/week2/sos.jpg',
+		atributos: {
+			Ataque: 4,
+			Defesa: 3,
+			Tática: 5,
+			Mentalidade: 5,
+			GameSense: 3,
+			Micro: 3,
+		},
+	},
+	{
 		nome: 'DRG',
 		time: 'Team NV',
 		raca: 'Zerg',
@@ -55,6 +72,23 @@ let cartas = [
 			Mentalidade: 4,
 			GameSense: 5,
 			Micro: 5,
+		},
+	},
+	{
+		nome: 'Stats',
+		time: 'Afreeca Freecs',
+		raca: 'Protoss',
+		pais: 'https://duckduckgo.com/i/35f25a64.png',
+		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
+		imagem:
+			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/week2/stats.jpg',
+		atributos: {
+			Ataque: 4.5,
+			Defesa: 5,
+			Tática: 3.5,
+			Mentalidade: 4,
+			GameSense: 5,
+			Micro: 4.5,
 		},
 	},
 	{
@@ -131,13 +165,13 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/912c9392.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/zerg.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/lambo.jpg',
+			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/week2/lambo.jpg',
 		atributos: {
-			Ataque: 5,
+			Ataque: 4,
 			Defesa: 2,
-			Tática: 3,
+			Tática: 4,
 			Mentalidade: 3,
-			GameSense: 4,
+			GameSense: 3,
 			Micro: 3,
 		},
 	},
@@ -148,13 +182,13 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/42d29b63.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/zerg.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/scarlett.jpg',
+			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/week2/scarlett.jpg',
 		atributos: {
 			Ataque: 3,
 			Defesa: 3,
-			Tática: 3,
+			Tática: 4,
 			Mentalidade: 4,
-			GameSense: 4,
+			GameSense: 3,
 			Micro: 3,
 		},
 	},
@@ -447,6 +481,40 @@ let cartas = [
 			Micro: 3,
 		},
 	},
+	{
+		nome: 'SpeCial',
+		time: 'Team eXoN',
+		raca: 'Terran',
+		pais: 'https://duckduckgo.com/i/5d875af6.png',
+		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
+		imagem:
+			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/week2/special.jpg',
+		atributos: {
+			Ataque: 4,
+			Defesa: 3,
+			Tática: 4,
+			Mentalidade: 4,
+			GameSense: 4,
+			Micro: 4,
+		},
+	},
+	{
+		nome: 'XY',
+		time: 'Invictus Gaming',
+		raca: 'Terran',
+		pais: 'https://duckduckgo.com/i/86271b84.png',
+		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
+		imagem:
+			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/week2/xy.jpg',
+		atributos: {
+			Ataque: 1,
+			Defesa: 3,
+			Tática: 2,
+			Mentalidade: 5,
+			GameSense: 3,
+			Micro: 1,
+		},
+	},
 ];
 
 /*
@@ -470,12 +538,39 @@ let cartas = [
 let pontosJogador = 0;
 let pontosMaquina = 0;
 
+/* Atenção aqui: */
+let arrCartasJogador = [];
+
+let metade = cartas.length / 2;
+
+for (let i = 0; i < metade; i++) {
+	let numeroCarta = parseInt(Math.random() * cartas.length);
+	arrCartasJogador.push(cartas[numeroCarta]);
+	cartas.splice(numeroCarta, 1);
+
+	// console.log('i', i);
+	// console.log('numeroCarta', numeroCarta);
+	// console.log('arrCartasJogador', arrCartasJogador);
+	// console.log('cartas', cartas);
+}
+
+let arrCartasMaquina = cartas;
+
+/* Fim da edição
+ */
+
 atualizaPlacar();
 atualizaQuantidadeDeCartas();
 
 function atualizaQuantidadeDeCartas() {
 	let divQuantidadeCartas = document.querySelector('.quantidade-cartas');
-	let html = 'Quantidade de cartas no jogo: ' + cartas.length;
+	// let html = 'Quantidade de cartas no jogo: ' + cartas.length;
+	let html =
+		'Sua quantidade de cartas no jogo: ' +
+		arrCartasJogador.length +
+		' | ' +
+		'Quantidade de cartas do computador: ' +
+		arrCartasMaquina.length;
 
 	divQuantidadeCartas.innerHTML = html;
 }
@@ -488,15 +583,19 @@ function atualizaPlacar() {
 }
 
 function sortearCarta() {
-	let numeroCartaMaquina = parseInt(Math.random() * cartas.length);
-	cartaMaquina = cartas[numeroCartaMaquina];
-	cartas.splice(numeroCartaMaquina, 1);
+	// let numeroCartaMaquina = parseInt(Math.random() * cartas.length);
+	// cartaMaquina = cartas[numeroCartaMaquina];
+	// cartas.splice(numeroCartaMaquina, 1);
 
-	let numeroCartaJogador = parseInt(Math.random() * cartas.length);
-	cartaJogador = cartas[numeroCartaJogador];
-	cartas.splice(numeroCartaJogador, 1);
+	// let numeroCartaJogador = parseInt(Math.random() * cartas.length);
+	// cartaJogador = cartas[numeroCartaJogador];
+	// cartas.splice(numeroCartaJogador, 1);
 
-	// console.log(cartaJogador);
+	let numeroCartaMaquina = parseInt(Math.random() * arrCartasMaquina.length);
+	cartaMaquina = arrCartasMaquina[numeroCartaMaquina];
+
+	let numeroCartaJogador = parseInt(Math.random() * arrCartasJogador.length);
+	cartaJogador = arrCartasJogador[numeroCartaJogador];
 
 	document.getElementById('btnSortear').disabled = true;
 	/*
@@ -564,37 +663,55 @@ function jogar() {
 	var divResultado = document.getElementById('resultado');
 	let btnRodada = document.getElementById('btnJogar');
 
+	let indexCartaMaquina = arrCartasMaquina.indexOf(cartaMaquina);
+	let indexCartaJogador = arrCartasJogador.indexOf(cartaJogador);
+
 	if (
 		cartaJogador.atributos[atributoSelecionado] >
 		cartaMaquina.atributos[atributoSelecionado]
 	) {
 		htmlResultado = '<p class="resultado-final">Venceu!</p>';
 		pontosJogador++;
+		arrCartasJogador.push(cartaMaquina);
+		arrCartasMaquina.splice(indexCartaMaquina, 1);
 	} else if (
 		cartaJogador.atributos[atributoSelecionado] <
 		cartaMaquina.atributos[atributoSelecionado]
 	) {
 		htmlResultado = '<p class="resultado-final">Perdeu :(</p>';
 		pontosMaquina++;
+		arrCartasMaquina.push(cartaJogador);
+		arrCartasJogador.splice(indexCartaJogador, 1);
 	} else {
 		htmlResultado = '<p class="resultado-final">Empatou!</p>';
 	}
+
+	// console.log('arrCartasJogador', arrCartasJogador.map( o => o.nome ));
+	// console.log('arrCartasMaquina', arrCartasMaquina.map( o => o.nome ));
 
 	/*
   let fimDeJogo = document.querySelector("wrapper");
   */
 
-	if (cartas.length == 0) {
-		alert('Fim de jogo');
+	// if (cartas.length == 0) {
+	// 	alert('Fim de jogo');
+	// 	btnRodada.disabled = true;
+	// 	if (pontosJogador > pontosMaquina) {
+	// 		htmlResultado =
+	// 			'<p class="resultado-final">Parabéns! :D <br> Você venceu!</p>';
+	// 	} else if (pontosJogador < pontosMaquina) {
+	// 		htmlResultado = '<p class="resultado-final">Você perdeu ☹</p>';
+	// 	} else {
+	// 		htmlResultado = '<p class="resultado-final">Empate!</p>';
+	// 	}
+	// }
+	if (arrCartasMaquina == 0) {
+		htmlResultado =
+			'<p class="resultado-final">Parabéns! :D <br> Você venceu!</p>';
 		btnRodada.disabled = true;
-		if (pontosJogador > pontosMaquina) {
-			htmlResultado =
-				'<p class="resultado-final">Parabéns! :D <br> Você venceu!</p>';
-		} else if (pontosJogador < pontosMaquina) {
-			htmlResultado = '<p class="resultado-final">Você perdeu ☹</p>';
-		} else {
-			htmlResultado = '<p class="resultado-final">Empate!</p>';
-		}
+	} else if (arrCartasJogador == 0) {
+		htmlResultado = '<p class="resultado-final">Você perdeu ☹</p>';
+		btnRodada.disabled = true;
 	} else {
 		document.getElementById('btnProximaRodada').disabled = false;
 	}
