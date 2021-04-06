@@ -16,6 +16,7 @@ body {
 	background-repeat: no-repeat;
 	padding-bottom: 20vh;
 	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
 }
 
 .container {
@@ -65,10 +66,23 @@ h2 {
 	justify-content: space-around;
 }
 
-.placar,
+.placar {
+	color: white;
+	height: 5vh;
+}
+
 .quantidade-cartas {
 	color: white;
 	height: 5vh;
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.cartas-jogador,
+.cartas-maquina {
+	width: 360px;
+	margin: 0 5%;
 }
 
 .cartas {
@@ -86,7 +100,7 @@ h2 {
 	/* overflow: auto; */
 	border-radius: 10px;
 	margin-bottom: 20px;
-	margin: 0 5%;
+	margin: 0 auto;
 
 	display: flex;
 	flex-direction: column;
@@ -96,6 +110,7 @@ h2 {
 	position: relative;
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-position: center;
 	/* background-size: 350px 300px;
 	background-position-x: 5px;
 	background-position-y: 10px; */
@@ -169,13 +184,14 @@ h2 {
 	width: 100%;
 	height: 100%;
 	border-radius: 5px;
+	/* caso pegue as imagens cortadas: */
+	object-fit: cover;
+	object-position: 50% 10%;
+
+	/* Para as imagens sem edição: 
 	object-fit: none;
 	object-position: 50% 35%;
-
-	/* caso pegue as imagens cortadas:
-    object-fit: cover;
-	object-position: top;
-    */
+	*/
 }
 
 .area-info {
@@ -212,12 +228,19 @@ h2 {
 .div-detalhes {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: center;
 	font-family: 'Montserrat', sans-serif;
 
-	width: 40%;
+	width: 60%;
 	font-size: 1rem;
+	padding: 5%;
+}
+
+.div-detalhes p {
+	width: max-content;
+	padding: 3%;
+	font-size: 0.85rem;
 }
 
 .area-jogo {
@@ -260,11 +283,12 @@ h2 {
 
 .imagem {
 	height: 100%;
-	width: 40%;
+	width: 35%;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-right: 10%;
 }
 
 .imagem img {
@@ -353,9 +377,21 @@ h2 {
 }
 
 @media (max-width: 810px) {
-	.placar,
-	.quantidade-cartas {
+	.placar {
 		height: 10vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.quantidade-cartas {
+		color: white;
+		height: 10vh;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
 	}
 
 	.cartas {
@@ -373,5 +409,9 @@ h2 {
 
 		margin-bottom: 5px;
 		padding: 2% 0;
+	}
+
+	.div-detalhes p {
+		font-size: 0.8rem;
 	}
 }

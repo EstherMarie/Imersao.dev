@@ -13,14 +13,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/creator.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828720917018050570/Screenshot_2021-04-05_creator_jpg_JPEG_Image_1473_808_pixels_-_Scaled_97.png',
 		atributos: {
-			Ataque: 3,
-			Defesa: 3,
-			Tática: 3,
-			Mentalidade: 2,
-			GameSense: 3,
-			Micro: 4,
+			Ataque: 6,
+			Defesa: 6,
+			Tática: 6,
+			Mentalidade: 4,
+			GameSense: 6,
+			Micro: 8,
 		},
 	},
 	{
@@ -30,14 +30,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/week2/sos.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828720905697624145/Screenshot_2021-04-05_sos_jpg_JPEG_Image_1433_807_pixels_-_Scaled_97.png',
 		atributos: {
-			Ataque: 4,
-			Defesa: 3,
-			Tática: 5,
-			Mentalidade: 5,
-			GameSense: 3,
-			Micro: 3,
+			Ataque: 8,
+			Defesa: 6,
+			Tática: 10,
+			Mentalidade: 10,
+			GameSense: 6,
+			Micro: 6,
 		},
 	},
 	{
@@ -47,14 +47,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/zerg.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/dongraegu.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828720915416219688/Screenshot_2021-04-05_dongraegu_jpg_JPEG_Image_1454_791_pixels_-_Scaled_99.png',
 		atributos: {
-			Ataque: 4,
-			Defesa: 3,
-			Tática: 3,
-			Mentalidade: 4,
-			GameSense: 4,
-			Micro: 2,
+			Ataque: 8,
+			Defesa: 6,
+			Tática: 6,
+			Mentalidade: 8,
+			GameSense: 8,
+			Micro: 4,
 		},
 	},
 	{
@@ -64,14 +64,31 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/maru.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828720909556121630/Screenshot_2021-04-05_maru_jpg_JPEG_Image_1435_806_pixels_-_Scaled_97.png',
 		atributos: {
-			Ataque: 5,
-			Defesa: 5,
-			Tática: 4,
-			Mentalidade: 4,
-			GameSense: 5,
-			Micro: 5,
+			Ataque: 10,
+			Defesa: 10,
+			Tática: 8,
+			Mentalidade: 8,
+			GameSense: 10,
+			Micro: 10,
+		},
+	},
+	{
+		nome: 'Percival',
+		time: 'Team NV',
+		raca: 'Terran',
+		pais: 'https://duckduckgo.com/i/35f25a64.png',
+		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
+		imagem:
+			'https://cdn.discordapp.com/attachments/828720741847400547/828720912425287680/Screenshot_2021-04-05_percival_jpg_JPEG_Image_1440_806_pixels_-_Scaled_97.png',
+		atributos: {
+			Ataque: 8,
+			Defesa: 6,
+			Tática: 7,
+			Mentalidade: 6,
+			GameSense: 6,
+			Micro: 7,
 		},
 	},
 	{
@@ -81,14 +98,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/week2/stats.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828722178382889040/Screenshot_2021-04-05_stats_jpg_JPEG_Image_1435_802_pixels_-_Scaled_98.png',
 		atributos: {
-			Ataque: 4.5,
-			Defesa: 5,
-			Tática: 3.5,
-			Mentalidade: 4,
-			GameSense: 5,
-			Micro: 4.5,
+			Ataque: 9,
+			Defesa: 10,
+			Tática: 7,
+			Mentalidade: 8,
+			GameSense: 10,
+			Micro: 9,
 		},
 	},
 	{
@@ -98,14 +115,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/zerg.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/armani.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828722180237426698/Screenshot_2021-04-05_armani_jpg_JPEG_Image_1428_799_pixels_-_Scaled_98.png',
 		atributos: {
-			Ataque: 3,
-			Defesa: 3,
-			Tática: 3,
-			Mentalidade: 3,
-			GameSense: 3,
-			Micro: 4,
+			Ataque: 6,
+			Defesa: 7,
+			Tática: 7,
+			Mentalidade: 6,
+			GameSense: 7,
+			Micro: 6,
 		},
 	},
 	{
@@ -115,14 +132,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/trap.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828722182389235763/Screenshot_2021-04-05_trap_jpg_JPEG_Image_1432_804_pixels_-_Scaled_97.png',
 		atributos: {
-			Ataque: 4,
-			Defesa: 5,
-			Tática: 5,
-			Mentalidade: 3,
-			GameSense: 4,
-			Micro: 5,
+			Ataque: 8,
+			Defesa: 10,
+			Tática: 8,
+			Mentalidade: 6,
+			GameSense: 10,
+			Micro: 10,
 		},
 	},
 	{
@@ -131,14 +148,15 @@ let cartas = [
 		raca: 'Terran',
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
-		imagem: 'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/ty.jpg',
+		imagem:
+			'https://cdn.discordapp.com/attachments/828720741847400547/828722177187512330/Screenshot_2021-04-05_ty_jpg_JPEG_Image_1442_797_pixels_-_Scaled_98.png',
 		atributos: {
-			Ataque: 4,
-			Defesa: 5,
-			Tática: 4,
-			Mentalidade: 4,
-			GameSense: 5,
-			Micro: 3,
+			Ataque: 8,
+			Defesa: 10,
+			Tática: 8,
+			Mentalidade: 8,
+			GameSense: 10,
+			Micro: 6,
 		},
 	},
 	{
@@ -148,14 +166,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/byun.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828720997783175178/Screenshot_2021-04-05_byun_jpg_JPEG_Image_1435_809_pixels_-_Scaled_97.png',
 		atributos: {
-			Ataque: 5,
-			Defesa: 3,
-			Tática: 4,
-			Mentalidade: 3,
-			GameSense: 4,
-			Micro: 5,
+			Ataque: 10,
+			Defesa: 6,
+			Tática: 8,
+			Mentalidade: 6,
+			GameSense: 8,
+			Micro: 9,
 		},
 	},
 	{
@@ -165,14 +183,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/912c9392.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/zerg.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/week2/lambo.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828720991382798337/Screenshot_2021-04-05_lambo_jpg_JPEG_Image_1438_797_pixels_-_Scaled_98.png',
 		atributos: {
-			Ataque: 4,
-			Defesa: 2,
-			Tática: 4,
-			Mentalidade: 3,
-			GameSense: 3,
-			Micro: 3,
+			Ataque: 8,
+			Defesa: 4,
+			Tática: 8,
+			Mentalidade: 6,
+			GameSense: 6,
+			Micro: 6,
 		},
 	},
 	{
@@ -182,14 +200,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/42d29b63.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/zerg.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/week2/scarlett.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828720996701438002/Screenshot_2021-04-05_scarlett_jpg_JPEG_Image_1438_802_pixels_-_Scaled_98.png',
 		atributos: {
-			Ataque: 3,
-			Defesa: 3,
-			Tática: 4,
-			Mentalidade: 4,
-			GameSense: 3,
-			Micro: 3,
+			Ataque: 6,
+			Defesa: 6,
+			Tática: 8,
+			Mentalidade: 8,
+			GameSense: 4,
+			Micro: 6,
 		},
 	},
 	{
@@ -199,14 +217,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/901a1c0a.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/clem.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828762080219889684/Screenshot_2021-04-05_clem_jpg_JPEG_Image_1443_786_pixels_-_Scaled_99.png',
 		atributos: {
-			Ataque: 5,
-			Defesa: 4,
-			Tática: 4,
-			Mentalidade: 4,
-			GameSense: 3,
-			Micro: 5,
+			Ataque: 10,
+			Defesa: 8,
+			Tática: 6,
+			Mentalidade: 8,
+			GameSense: 8,
+			Micro: 10,
 		},
 	},
 	{
@@ -216,14 +234,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/719588b1.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/harstem.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828762079871238144/Screenshot_2021-04-05_harstem_jpg_JPEG_Image_1443_805_pixels_-_Scaled_97.png',
 		atributos: {
-			Ataque: 3,
-			Defesa: 3,
-			Tática: 3,
-			Mentalidade: 4,
-			GameSense: 4,
-			Micro: 3,
+			Ataque: 6,
+			Defesa: 6,
+			Tática: 6,
+			Mentalidade: 8,
+			GameSense: 8,
+			Micro: 6,
 		},
 	},
 	{
@@ -233,14 +251,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/8f6c042d.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/mana.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828762079229378601/Screenshot_2021-04-05_mana_jpg_JPEG_Image_1441_803_pixels_-_Scaled_97.png',
 		atributos: {
-			Ataque: 3,
-			Defesa: 3,
-			Tática: 3,
-			Mentalidade: 3,
-			GameSense: 3,
-			Micro: 3,
+			Ataque: 6,
+			Defesa: 6,
+			Tática: 6,
+			Mentalidade: 6,
+			GameSense: 6,
+			Micro: 6,
 		},
 	},
 	{
@@ -250,65 +268,82 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/cb286b9b.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
 		imagem:
-			'https://cdn.discordapp.com/attachments/730091580706259084/827699011858989066/Kelazhur.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828762077375102996/Screenshot_2021-04-05_Twitch.png',
 		atributos: {
-			Ataque: 4,
-			Defesa: 3,
-			Tática: 3,
-			Mentalidade: 4,
-			GameSense: 3,
-			Micro: 4,
+			Ataque: 7,
+			Defesa: 6,
+			Tática: 7,
+			Mentalidade: 6,
+			GameSense: 6,
+			Micro: 7,
 		},
 	},
 	{
 		nome: 'Rogue',
-		time: 'DPG',
+		time: 'Dragon Phoenix Gaming',
 		raca: 'Zerg',
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/zerg.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/rogue.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828765177431588864/Screenshot_2021-04-05_rogue_jpg_JPEG_Image_1443_791_pixels_-_Scaled_99.png',
 		atributos: {
-			Ataque: 4,
-			Defesa: 4,
-			Tática: 5,
-			Mentalidade: 4,
-			GameSense: 5,
-			Micro: 4,
+			Ataque: 8,
+			Defesa: 8,
+			Tática: 10,
+			Mentalidade: 8,
+			GameSense: 10,
+			Micro: 8,
 		},
 	},
 	{
 		nome: 'Zest',
-		time: 'DPG',
+		time: 'Dragon Phoenix Gaming',
 		raca: 'Protoss',
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/zest.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828765177498304522/Screenshot_2021-04-05_zest_jpg_JPEG_Image_1440_808_pixels_-_Scaled_97.png',
 		atributos: {
-			Ataque: 5,
-			Defesa: 4,
-			Tática: 4,
-			Mentalidade: 4,
-			GameSense: 4,
-			Micro: 5,
+			Ataque: 10,
+			Defesa: 8,
+			Tática: 8,
+			Mentalidade: 8,
+			GameSense: 8,
+			Micro: 10,
 		},
 	},
 	{
 		nome: 'Cure',
-		time: 'DPG',
+		time: 'Dragon Phoenix Gaming',
 		raca: 'Terran',
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/cure.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828765181831151636/Screenshot_2021-04-05_cure_jpg_JPEG_Image_1444_805_pixels_-_Scaled_97.png',
 		atributos: {
-			Ataque: 4,
-			Defesa: 5,
-			Tática: 4,
-			Mentalidade: 4,
-			GameSense: 5,
-			Micro: 4,
+			Ataque: 8,
+			Defesa: 10,
+			Tática: 8,
+			Mentalidade: 8,
+			GameSense: 10,
+			Micro: 8,
+		},
+	},
+	{
+		nome: 'Dark',
+		time: 'Dragon Phoenix Gaming',
+		raca: 'Zerg',
+		pais: 'https://duckduckgo.com/i/35f25a64.png',
+		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/zerg.svg',
+		imagem:
+			'https://cdn.discordapp.com/attachments/828720741847400547/828765191302545408/Screenshot_2021-04-05_Twitch1.png',
+		atributos: {
+			Ataque: 10,
+			Defesa: 10,
+			Tática: 8,
+			Mentalidade: 8,
+			GameSense: 10,
+			Micro: 10,
 		},
 	},
 	{
@@ -318,14 +353,31 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/65032114.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/astrea.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828756662302015569/Screenshot_2021-04-05_astrea_jpg_JPEG_Image_1451_790_pixels_-_Scaled_99.png',
 		atributos: {
-			Ataque: 3,
-			Defesa: 4,
-			Tática: 3,
-			Mentalidade: 3,
-			GameSense: 4,
-			Micro: 3,
+			Ataque: 6,
+			Defesa: 8,
+			Tática: 6,
+			Mentalidade: 6,
+			GameSense: 8,
+			Micro: 6,
+		},
+	},
+	{
+		nome: 'Nice',
+		time: 'Alpha X',
+		raca: 'Protoss',
+		pais: 'https://duckduckgo.com/i/baca6fea.png',
+		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
+		imagem:
+			'https://cdn.discordapp.com/attachments/828720741847400547/828756664119328808/Nice.png',
+		atributos: {
+			Ataque: 7,
+			Defesa: 5,
+			Tática: 7,
+			Mentalidade: 7,
+			GameSense: 5,
+			Micro: 6,
 		},
 	},
 	{
@@ -335,14 +387,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/zoun.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828756657286021130/Screenshot_2021-04-05_zoun_jpg_JPEG_Image_1451_801_pixels_-_Scaled_98.png',
 		atributos: {
-			Ataque: 4,
-			Defesa: 3,
-			Tática: 4,
-			Mentalidade: 3,
-			GameSense: 4,
-			Micro: 3,
+			Ataque: 8,
+			Defesa: 6,
+			Tática: 8,
+			Mentalidade: 6,
+			GameSense: 8,
+			Micro: 6,
 		},
 	},
 	{
@@ -352,14 +404,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/zerg.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/ragnarok.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828756658946965514/Screenshot_2021-04-05_ragnarok_jpg_JPEG_Image_1458_783_pixels_-_Scaled_98.png',
 		atributos: {
-			Ataque: 4,
-			Defesa: 3,
-			Tática: 4,
-			Mentalidade: 3,
-			GameSense: 3,
-			Micro: 3,
+			Ataque: 8,
+			Defesa: 6,
+			Tática: 8,
+			Mentalidade: 6,
+			GameSense: 6,
+			Micro: 6,
 		},
 	},
 	{
@@ -369,14 +421,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/innovation.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828721486185103370/Screenshot_2021-04-05_innovation_jpg_JPEG_Image_1437_800_pixels_-_Scaled_98.png',
 		atributos: {
-			Ataque: 5,
-			Defesa: 4,
-			Tática: 4,
-			Mentalidade: 5,
-			GameSense: 4,
-			Micro: 4,
+			Ataque: 10,
+			Defesa: 8,
+			Tática: 8,
+			Mentalidade: 10,
+			GameSense: 8,
+			Micro: 8,
 		},
 	},
 	{
@@ -386,14 +438,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/zerg.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/solar.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828721485031014400/Screenshot_2021-04-05_solar_jpg_JPEG_Image_1443_800_pixels_-_Scaled_98.png',
 		atributos: {
-			Ataque: 5,
-			Defesa: 4,
-			Tática: 4,
-			Mentalidade: 3,
-			GameSense: 5,
-			Micro: 4,
+			Ataque: 10,
+			Defesa: 8,
+			Tática: 8,
+			Mentalidade: 6,
+			GameSense: 10,
+			Micro: 8,
 		},
 	},
 	{
@@ -403,65 +455,65 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/86271b84.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/TIME.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828721482892836954/Screenshot_2021-04-05_time_jpg_JPEG_Image_1439_804_pixels_-_Scaled_97.png',
 		atributos: {
-			Ataque: 4,
-			Defesa: 3,
-			Tática: 4,
-			Mentalidade: 3,
-			GameSense: 3,
-			Micro: 4,
+			Ataque: 8,
+			Defesa: 6,
+			Tática: 8,
+			Mentalidade: 6,
+			GameSense: 6,
+			Micro: 8,
 		},
 	},
 	{
 		nome: 'Patience',
-		time: 'GGG',
+		time: 'Good Game Gaming',
 		raca: 'Protoss',
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/patience.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828722707004260382/Screenshot_2021-04-05_patience_jpg_JPEG_Image_1443_794_pixels_-_Scaled_98.png',
 		atributos: {
-			Ataque: 3,
-			Defesa: 4,
-			Tática: 2,
-			Mentalidade: 3,
-			GameSense: 2,
-			Micro: 4,
+			Ataque: 6,
+			Defesa: 8,
+			Tática: 4,
+			Mentalidade: 6,
+			GameSense: 4,
+			Micro: 8,
 		},
 	},
 	{
 		nome: 'Dream',
-		time: 'GGG',
+		time: 'Good Game Gaming',
 		raca: 'Terran',
 		pais: 'https://duckduckgo.com/i/35f25a64.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/dream.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828722714302611456/Screenshot_2021-04-05_dream_jpg_JPEG_Image_1462_828_pixels_-_Scaled_94.png',
 		atributos: {
-			Ataque: 4,
-			Defesa: 4,
-			Tática: 3,
-			Mentalidade: 3,
-			GameSense: 4,
-			Micro: 4,
+			Ataque: 8,
+			Defesa: 8,
+			Tática: 6,
+			Mentalidade: 6,
+			GameSense: 8,
+			Micro: 8,
 		},
 	},
 	{
 		nome: 'Cyan',
-		time: 'GGG',
+		time: 'Good Game Gaming',
 		raca: 'Protoss',
 		pais: 'https://duckduckgo.com/i/86271b84.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/cyan.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828722707767623721/Screenshot_2021-04-05_cyan_jpg_JPEG_Image_1443_790_pixels_-_Scaled_99.png',
 		atributos: {
-			Ataque: 3,
-			Defesa: 4,
-			Tática: 3,
-			Mentalidade: 2,
-			GameSense: 2,
-			Micro: 3,
+			Ataque: 6,
+			Defesa: 8,
+			Tática: 6,
+			Mentalidade: 4,
+			GameSense: 4,
+			Micro: 6,
 		},
 	},
 	{
@@ -471,14 +523,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/5d875af6.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/zerg.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/cham.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828761520334569562/Screenshot_2021-04-05_cham_jpg_JPEG_Image_1441_793_pixels_-_Scaled_99.png',
 		atributos: {
-			Ataque: 3,
-			Defesa: 3,
-			Tática: 3,
-			Mentalidade: 3,
-			GameSense: 2,
-			Micro: 3,
+			Ataque: 6,
+			Defesa: 6,
+			Tática: 6,
+			Mentalidade: 6,
+			GameSense: 4,
+			Micro: 6,
 		},
 	},
 	{
@@ -488,14 +540,14 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/5d875af6.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/week2/special.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828761518698790912/Screenshot_2021-04-05_special_jpg_JPEG_Image_1440_793_pixels_-_Scaled_99.png',
 		atributos: {
-			Ataque: 4,
-			Defesa: 3,
-			Tática: 4,
-			Mentalidade: 4,
-			GameSense: 4,
-			Micro: 4,
+			Ataque: 8,
+			Defesa: 6,
+			Tática: 8,
+			Mentalidade: 8,
+			GameSense: 8,
+			Micro: 8,
 		},
 	},
 	{
@@ -505,14 +557,167 @@ let cartas = [
 		pais: 'https://duckduckgo.com/i/86271b84.png',
 		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
 		imagem:
-			'https://tl.net/staff/Waxangel/CTC/WTL2021summer/powergon/week2/xy.jpg',
+			'https://cdn.discordapp.com/attachments/828720741847400547/828768004653056020/Screenshot_2021-04-05_xy_jpg_JPEG_Image_1455_787_pixels_-_Scaled_98.png',
 		atributos: {
-			Ataque: 1,
-			Defesa: 3,
-			Tática: 2,
-			Mentalidade: 5,
-			GameSense: 3,
-			Micro: 1,
+			Ataque: 2,
+			Defesa: 6,
+			Tática: 4,
+			Mentalidade: 10,
+			GameSense: 6,
+			Micro: 2,
+		},
+	},
+	{
+		nome: 'MacSed',
+		time: 'Invictus Gaming',
+		raca: 'Protoss',
+		pais: 'https://duckduckgo.com/i/86271b84.png',
+		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
+		imagem:
+			'https://cdn.discordapp.com/attachments/828720741847400547/828767998500143124/Screenshot_2021-04-05_macsed_jpg_JPEG_Image_1521_809_pixels_-_Scaled_94.png',
+		atributos: {
+			Ataque: 4,
+			Defesa: 8,
+			Tática: 6,
+			Mentalidade: 6,
+			GameSense: 6,
+			Micro: 4,
+		},
+	},
+	{
+		nome: 'Coffee',
+		time: 'Invictus Gaming',
+		raca: 'Terran',
+		pais: 'https://duckduckgo.com/i/86271b84.png',
+		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
+		imagem:
+			'https://cdn.discordapp.com/attachments/828720741847400547/828767995202895942/Screenshot_2021-04-05_coffee_jpg_JPEG_Image_1436_801_pixels_-_Scaled_98.png',
+		atributos: {
+			Ataque: 8,
+			Defesa: 4,
+			Tática: 6,
+			Mentalidade: 2,
+			GameSense: 4,
+			Micro: 8,
+		},
+	},
+	{
+		nome: 'Alka',
+		time: 'Team LaoPaoer',
+		raca: 'Protoss',
+		pais: 'https://duckduckgo.com/i/86271b84.png',
+		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
+		imagem:
+			'https://cdn.discordapp.com/attachments/828720741847400547/828771613910368337/Screenshot_2021-04-05_alka_jpg_JPEG_Image_1432_804_pixels_-_Scaled_97.png',
+		atributos: {
+			Ataque: 4,
+			Defesa: 4,
+			Tática: 4,
+			Mentalidade: 4,
+			GameSense: 4,
+			Micro: 4,
+		},
+	},
+	{
+		nome: 'Jieshi',
+		time: 'Team LaoPaoer',
+		raca: 'Protoss',
+		pais: 'https://duckduckgo.com/i/86271b84.png',
+		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
+		imagem:
+			'https://cdn.discordapp.com/attachments/828720741847400547/828771610378502144/Screenshot_2021-04-05_jieshi_jpg_JPEG_Image_1435_793_pixels_-_Scaled_99.png',
+		atributos: {
+			Ataque: 8,
+			Defesa: 4,
+			Tática: 6,
+			Mentalidade: 6,
+			GameSense: 4,
+			Micro: 6,
+		},
+	},
+	{
+		nome: 'Wanted',
+		time: 'Team LaoPaoer',
+		raca: 'Protoss',
+		pais: 'https://duckduckgo.com/i/86271b84.png',
+		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/zerg.svg',
+		imagem:
+			'https://cdn.discordapp.com/attachments/828720741847400547/828771607328587776/Screenshot_2021-04-05_wanted_jpg_JPEG_Image_1435_800_pixels_-_Scaled_98.png',
+		atributos: {
+			Ataque: 4,
+			Defesa: 4,
+			Tática: 4,
+			Mentalidade: 4,
+			GameSense: 6,
+			Micro: 6,
+		},
+	},
+	{
+		nome: 'NaTuRal',
+		time: 'Team GP',
+		raca: 'Terran',
+		pais: 'https://duckduckgo.com/i/35f25a64.png',
+		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
+		imagem:
+			'https://cdn.discordapp.com/attachments/828720741847400547/828775257635815434/NaTuRal.png',
+		atributos: {
+			Ataque: 6,
+			Defesa: 5,
+			Tática: 5,
+			Mentalidade: 6,
+			GameSense: 6,
+			Micro: 5,
+		},
+	},
+	{
+		nome: 'Ryung',
+		time: 'Team GP',
+		raca: 'Terran',
+		pais: 'https://duckduckgo.com/i/35f25a64.png',
+		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/terran.svg',
+		imagem:
+			'https://cdn.discordapp.com/attachments/828720741847400547/828775256121409606/Screenshot_2021-04-05_ryung_jpg_JPEG_Image_1447_708_pixels_-_Scaled_991.png',
+		atributos: {
+			Ataque: 8,
+			Defesa: 8,
+			Tática: 4,
+			Mentalidade: 6,
+			GameSense: 6,
+			Micro: 4,
+		},
+	},
+	{
+		nome: 'Prince',
+		time: 'Team GP',
+		raca: 'Protoss',
+		pais: 'https://duckduckgo.com/i/35f25a64.png',
+		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
+		imagem:
+			'https://cdn.discordapp.com/attachments/828720741847400547/828775256755666944/Prince.png',
+		atributos: {
+			Ataque: 7,
+			Defesa: 5,
+			Tática: 8,
+			Mentalidade: 6,
+			GameSense: 5,
+			Micro: 5,
+		},
+	},
+	{
+		nome: 'Puzzle',
+		time: 'Team GP',
+		raca: 'Protoss',
+		pais: 'https://duckduckgo.com/i/35f25a64.png',
+		icon: 'https://www.rankedftw.com/static/01c2f01/img/races/protoss.svg',
+		imagem:
+			'https://cdn.discordapp.com/attachments/828720741847400547/828776959009488946/Screenshot_2021-04-05_puzzle_jpg_JPEG_Image_1454_805_pixels_-_Scaled_97.png',
+		atributos: {
+			Ataque: 8,
+			Defesa: 6,
+			Tática: 4,
+			Mentalidade: 6,
+			GameSense: 4,
+			Micro: 6,
 		},
 	},
 ];
@@ -523,6 +728,7 @@ let cartas = [
     time: "",
     raca: "",
     pais: "",
+	icon: "",
     imagem: "",
     atributos: {
       Ataque: ,
@@ -563,16 +769,21 @@ atualizaPlacar();
 atualizaQuantidadeDeCartas();
 
 function atualizaQuantidadeDeCartas() {
-	let divQuantidadeCartas = document.querySelector('.quantidade-cartas');
+	let divQuantidadeCartasJogador = document.querySelector('.cartas-jogador');
+	let divQuantidadeCartasMaquina = document.querySelector('.cartas-maquina');
 	// let html = 'Quantidade de cartas no jogo: ' + cartas.length;
-	let html =
-		'Sua quantidade de cartas no jogo: ' +
+	let cartasJogador =
+		`<p>Sua quantidade de cartas no jogo: ` +
 		arrCartasJogador.length +
-		' | ' +
-		'Quantidade de cartas do computador: ' +
-		arrCartasMaquina.length;
+		`</p>`;
 
-	divQuantidadeCartas.innerHTML = html;
+	let cartasMaquina =
+		`<p>Quantidade de cartas do computador: ` +
+		arrCartasMaquina.length +
+		`</p>`;
+
+	divQuantidadeCartasJogador.innerHTML = cartasJogador;
+	divQuantidadeCartasMaquina.innerHTML = cartasMaquina;
 }
 
 function atualizaPlacar() {
@@ -618,6 +829,7 @@ function exibeCartaJogador() {
 	nome.textContent = cartaJogador.nome;
 	let imgCartaJogador = document.querySelector('.img-carta-jogador');
 	imgCartaJogador.src = cartaJogador.imagem;
+	imgCartaJogador.alt = cartaJogador.nome;
 	let time = document.querySelector('.time');
 	time.textContent = cartaJogador.time;
 	let raca = document.querySelector('.raca');
@@ -751,6 +963,7 @@ function exibeCartaMaquina() {
 
 	let imgCartaMaquina = document.querySelector('.img-carta-maquina');
 	imgCartaMaquina.src = cartaMaquina.imagem;
+	imgCartaMaquina.alt = 'Jogador ' + cartaMaquina.nome;
 	let timeMaq = document.querySelector('.time-maq');
 	timeMaq.textContent = cartaMaquina.time;
 	let racaMaq = document.querySelector('.raca-maq');
