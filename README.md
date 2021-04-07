@@ -1,4 +1,4 @@
-# Imersao.dev
+# Imersão Dev
 
 Projetos realizados durante a Imersão.dev da Alura.
 
