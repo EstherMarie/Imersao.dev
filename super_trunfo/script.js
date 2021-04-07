@@ -2,6 +2,8 @@ let card_back_player = document.querySelector('.card-back-player');
 let carta_jogador = document.querySelector('.carta-jogador');
 let card_back_maquina = document.querySelector('.card-back-maquina');
 let carta_maquina = document.querySelector('.carta-maquina');
+let cardJogador = document.querySelector('.card-jogador');
+let cardMaquina = document.querySelector('.card-maquina');
 
 let cartaMaquina;
 let cartaJogador;
@@ -745,6 +747,18 @@ let pontosJogador = 0;
 let pontosMaquina = 0;
 
 /* Atenção aqui: */
+
+// Como embaralhar arrays!!!!
+function embaralhar(arr) {
+	arr.sort(() => parseInt(Math.random() * arr.length - arr.length / 2));
+}
+
+embaralhar(cartas);
+console.log(cartas.length);
+
+cartas.splice(32, cartas.length);
+console.log(cartas.length);
+
 let arrCartasJogador = [];
 
 let metade = cartas.length / 2;
@@ -810,15 +824,17 @@ function sortearCarta() {
 
 	document.getElementById('btnSortear').disabled = true;
 	/*
-  document.getElementById("btnJogar").disabled = false;
-  */
+  	document.getElementById("btnJogar").disabled = false;
+  	*/
+
+	// let cardJogador = document.querySelector('.card-jogador');
 
 	exibeCartaJogador();
 
 	/* Declarada no escopo global:
-  let card_back_player = document.querySelector(".card-back-player");
-  let carta_jogador = document.querySelector(".carta-jogador");
-  */
+ 	 let card_back_player = document.querySelector(".card-back-player");
+  	let carta_jogador = document.querySelector(".carta-jogador");
+ 	 */
 
 	card_back_player.style.display = 'none';
 	carta_jogador.style.display = 'flex';
@@ -854,6 +870,8 @@ function exibeCartaJogador() {
 
 	let areaAtributos = document.querySelector('.area-atributos');
 	areaAtributos.innerHTML = opcoesTexto;
+
+	cardJogador.classList.toggle('flip');
 }
 
 function obtemAtributoSelecionado() {
@@ -886,6 +904,7 @@ function jogar() {
 		pontosJogador++;
 		arrCartasJogador.push(cartaMaquina);
 		arrCartasMaquina.splice(indexCartaMaquina, 1);
+		embaralhar(arrCartasJogador);
 	} else if (
 		cartaJogador.atributos[atributoSelecionado] <
 		cartaMaquina.atributos[atributoSelecionado]
@@ -894,8 +913,11 @@ function jogar() {
 		pontosMaquina++;
 		arrCartasMaquina.push(cartaJogador);
 		arrCartasJogador.splice(indexCartaJogador, 1);
+		embaralhar(arrCartasMaquina);
 	} else {
 		htmlResultado = '<p class="resultado-final">Empatou!</p>';
+		embaralhar(arrCartasJogador);
+		embaralhar(arrCartasMaquina);
 	}
 
 	// console.log('arrCartasJogador', arrCartasJogador.map( o => o.nome ));
@@ -932,8 +954,10 @@ function jogar() {
 
 	btnRodada.textContent = 'Próxima rodada';
 
+	// let cardMaquina = document.querySelector('.card-maquina');
+
 	if (btnRodada.textContent === 'Próxima rodada') {
-		//  btnProximaRodada.addEventListener('click', proximaRodada())
+		// btnProximaRodada.addEventListener('click', proximaRodada())
 		btnRodada.setAttribute('onclick', 'proximaRodada()');
 	} else {
 		btnRodada.setAttribute('onclick', 'jogar()');
@@ -986,6 +1010,8 @@ function exibeCartaMaquina() {
 
 	let areaAtributosMaq = document.querySelector('.area-atributos-maq');
 	areaAtributosMaq.innerHTML = opcoesTexto;
+
+	cardMaquina.classList.add('flip');
 }
 
 function proximaRodada() {
@@ -1004,4 +1030,7 @@ function proximaRodada() {
 	let btnJogar = document.querySelector('.button-jogar');
 	btnJogar.textContent = 'Jogar';
 	btnJogar.setAttribute('onclick', 'jogar()');
+
+	cardJogador.classList.remove('flip');
+	cardMaquina.classList.remove('flip');
 }
